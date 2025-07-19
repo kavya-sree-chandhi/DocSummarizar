@@ -22,25 +22,39 @@ It’s ideal for quickly digesting long blog posts, tech articles, news stories,
 - 💻 **Runs locally:** Your API key is never shared with us.
 
 ---
+## How it Works:
+
+1. **Launch the App**
+The terminal displays both local and network URLs where you can access your app in a web browser.
 <img width="1631" height="181" alt="image" src="https://github.com/user-attachments/assets/3b9c927e-aa83-41d7-b105-d25126d390ba" />
 
+2. **Initial App Screen**
+Enter your Groq API key. Enter any web article URL (for example, Lilian Weng's LLM agents post). Set your chunk size (how large each section of text will be for summarization). Click "Summarize and Stream!" to begin.
 <img width="1917" height="958" alt="image" src="https://github.com/user-attachments/assets/5f467218-52df-4854-8d83-99b4b16069b7" />
 
+3. **Document Preview & Ready to Summarize**
+After clicking the button, the app fetches the article and shows a preview of the loaded text. This ensures the document was loaded successfully before summarization starts. 
 <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/2e28bde3-8522-470c-8bbe-9169e037b8c0" />
 
+4. **Chunking, Summarization, and Streaming Final Summary**
+The article is split into chunks, and each chunk is summarized using the LLM. Progress bars and status messages show the summarization steps. The final summary of the entire article is streamed and displayed. A green confirmation message shows that summarization completed successfully.
 <img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/92c5bcd1-6f2b-41b6-985e-76a4398089b6" />
-
 
 
 ## Visual Diagram
 
 ```mermaid
-graph TD
-    A[User enters web URL and API key] --> B[App loads and previews article content]
-    B --> C[Document is split into text chunks]
-    C --> D[Each chunk summarized by Groq LLM]
-    D --> E[Chunk summaries recursively combined]
-    E --> F[Final summary streamed to user]
+flowchart TD
+    A([Start App in Terminal]) --> B[Open App in Browser (localhost:8501)]
+    B --> C[Enter Groq API Key]
+    C --> D[Enter Web Article URL]
+    D --> E[Set Chunk Size]
+    E --> F[Click "Summarize and Stream!"]
+    F --> G[Fetch & Preview Article Content]
+    G --> H[Split Article into Chunks]
+    H --> I[Summarize Each Chunk]
+    I --> J[Stream and Display Final Summary]
+    J --> K([Done! Summary Available])
 
 
 
