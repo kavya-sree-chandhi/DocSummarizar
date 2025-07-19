@@ -45,16 +45,17 @@ The article is split into chunks, and each chunk is summarized using the LLM. Pr
 
 ```mermaid
 flowchart TD
-    A([Start App in Terminal]) --> B[Open App in Browser (localhost:8501)]
-    B --> C[Enter Groq API Key]
-    C --> D[Enter Web Article URL]
-    D --> E[Set Chunk Size]
-    E --> F[Click "Summarize and Stream!"]
-    F --> G[Fetch & Preview Article Content]
-    G --> H[Split Article into Chunks]
-    H --> I[Summarize Each Chunk]
-    I --> J[Stream and Display Final Summary]
-    J --> K([Done! Summary Available])
+    A[Start app in terminal] --> B[Open app in browser]
+    B --> C[Enter Groq API key]
+    C --> D[Enter web article URL]
+    D --> E[Set chunk size]
+    E --> F[Click Summarize and Stream]
+    F --> G[Fetch and preview article]
+    G --> H[Split article into chunks]
+    H --> I[Summarize each chunk]
+    I --> J[Stream and display final summary]
+    J --> K[Done summary available]
+
 
 
 
