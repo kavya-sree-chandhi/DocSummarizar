@@ -22,6 +22,15 @@ It’s ideal for quickly digesting long blog posts, tech articles, news stories,
 - 💻 **Runs locally:** Your API key is never shared with us.
 
 ---
+<img width="1631" height="181" alt="image" src="https://github.com/user-attachments/assets/3b9c927e-aa83-41d7-b105-d25126d390ba" />
+
+<img width="1917" height="958" alt="image" src="https://github.com/user-attachments/assets/5f467218-52df-4854-8d83-99b4b16069b7" />
+
+<img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/2e28bde3-8522-470c-8bbe-9169e037b8c0" />
+
+<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/92c5bcd1-6f2b-41b6-985e-76a4398089b6" />
+
+
 
 ## Visual Diagram
 
