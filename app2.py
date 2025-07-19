@@ -8,7 +8,7 @@ from langchain_core.documents import Document
 from langchain_groq import ChatGroq
 
 st.set_page_config(page_title="Web Article Summarizer", page_icon="📰")
-st.title("📰 Doc Summarizer")
+st.title("📰 Web Article Summarizer")
 
 # --- Groq LLM Setup ---
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
