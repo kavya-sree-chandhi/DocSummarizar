@@ -50,11 +50,11 @@ flowchart TD
     C --> D[Enter web article URL]
     D --> E[Set chunk size]
     E --> F[Click Summarize and Stream]
-    F --> G[Fetch and preview article]
-    G --> H[Split article into chunks]
-    H --> I[Summarize each chunk]
-    I --> J[Stream and display final summary]
-    J --> K[Done summary available]
+    F --> G[Fetchs and previews article]
+    G --> H[Splits article into chunks]
+    H --> I[Summarizes each chunk]
+    I --> J[Streams and displays final summary]
+
 
 
 
